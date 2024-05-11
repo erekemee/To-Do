@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <title>stop</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+background: #190a89;
+background: repeating-radial-gradient(circle farthest-corner at center center, #190a89 100%, #000000 120%);
+background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, #190a89 100%, #000000 120%);
+background: -moz-repeating-radial-gradient(circle farthest-corner at center center, #190a89 100%, #000000 120%);
+            height:90vh;
+        }
+        .alur{
+			background-color:white;
+            padding:20px;
+            border-radius:100px;
+			border: 55px ridge #36259c;
+			
+        }
+        .alur{
+			font-size:25px;
+			border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+border: 22px inset #1020ee;
+			box-shadow: 62px 63px 5px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 62px 63px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 62px 63px 5px -3px rgba(0,0,0,0.75);
+			position:relative;
+        }
+        ol{
+            height:150px;
+            overflow-y:scroll;
+        }
+		.alur h1{
+			text-shadow: -4px 8px 4px rgba(9,0,255,0.8);
+		}
+		.add{
+			cursor: cell;
+		}
+		ol button{
+			position:absolute;
+			right:65px;
+		}
+		ol .del{
+			right:30px;
+		}
+		.checked{
+			color:green;
+			text-decoration:line-through;
+		}
+        </style>
+    </head>
+    <body>
+        <div class="alur">
+            <h1 class="animate__animated animate__fadeInUp">To do list app</h1>
+            <input class="erk" type="text">
+            <button onclick="add()" class="add">Add</button>
+            <ol>
+			
+			</ol>
+			
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
