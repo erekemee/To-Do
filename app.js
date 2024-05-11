@@ -15,8 +15,6 @@ addBtn.addEventListener("click",()=>{
 	checkBtn.innerHTML = '<i class="bi bi-clipboard-check"></i>';
 	li.append(checkBtn);
 	delBtn.className = "del";
-	checkBtn.classList.toggle=('<i class="bi bi-clipboard2-minus"></i>');
-	checkBtn.innerHTML = checkBtn.classList.toggle
 	saveData();
 })
 
